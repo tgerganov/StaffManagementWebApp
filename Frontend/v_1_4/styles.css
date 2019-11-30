@@ -1,0 +1,130 @@
+body {
+    background: rgb(128, 204, 255);
+}
+
+.container {
+    width: 1200px;
+    height: 100vh;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.title {
+    width: 50%;
+    height: 150px;
+    background-image: url('./images/Home.png');
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    margin: auto;
+}
+
+.page2 {
+    position: absolute;
+    width: 1100px;
+    top: 150px;
+    z-index: 98;
+}
+
+.one {
+    width: fit-content;
+    height: 70vh;
+    overflow-y: scroll;
+    border-style: solid;
+    border-width: thin;
+    margin-left: 75px;
+    background-color: white;
+}
+
+.two {
+    margin-left: 30%;
+    height: 20vh;
+    z-index: 99;
+    padding-top: 15px;
+}
+
+.employeePage {
+    width: 100%;
+    height: 150px;
+}
+
+#employeePageClick {
+    width: 100%;
+    height: 150px;
+    background-image: url('./images/HR.png');
+    background-repeat: no-repeat;
+    background-size: 27%;
+    background-position-x: center;
+    background-position-y: center;
+
+    -webkit-transition:  0.2s; 
+       -moz-transition:  0.2s; 
+        -ms-transition:  0.2s; 
+         -o-transition:  0.2s; 
+            transition:  0.2s;
+}
+
+#employeePageClick:hover {
+    background-image: url('./images/HR1.png');
+    background-size: 50%;
+
+    -webkit-transition:  0.2s; 
+       -moz-transition:  0.2s; 
+        -ms-transition:  0.2s; 
+         -o-transition:  0.2s; 
+            transition:  0.2s;
+
+}
+
+.leftSide {
+    width: 50%;
+    height: 300px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 160px;
+    background-image: url('./images/cleaning-company.png');
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position-x: right;
+    background-position-y: center;
+}
+
+.btn {
+    width: 180px;
+    margin: 5px;
+    border: solid thin;
+}
+
+.showModBtn{
+    margin-left: 63px;
+}
+
+th {
+    font-weight: 800;
+}
+
+td {
+    font-weight: 100;
+    color: #888888;
+}
+
+.form-control {
+    font-weight: 100;
+    color: #888888;
+}
+
+#totalHours {
+    font-size: 30px;
+    color: #2f00ff;
+    margin-left: 5px;
+}
+
+#totalHoursText {
+    font-size: 15px;
+}
+
+.page1 {
+    width: 100%;
+    padding: 200px 100px;
+}
